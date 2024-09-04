@@ -1,0 +1,204 @@
+/* ここから小橋 */
+/* サイト全体のフォント指定 */
+html { font-size: 62.5%; }
+
+body {
+ font-family: "游明朝" ;
+ font-size: 1.4rem;
+}
+
+.concept {
+    text-align: center;
+}
+
+.mainward {
+    font-size: 2.3rem;
+    color: #00488e;
+    line-height: 0.3em;
+}
+
+.subward {
+    color: #00488e
+}
+
+.ward {
+    color: #8f8d93;
+    
+}
+
+
+/*位置調整*/
+.spaceward {
+    position: absolute;
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
+    background-color: transparent;
+    padding-top: 20rem;
+    z-index: 2;
+}
+
+.foodward {
+    position: absolute;
+    padding: 0rem 0rem;
+    margin: 1rem 0rem;
+    background-color: transparent;
+    padding-top: 20rem;
+    z-index: 2;
+}
+
+.drinkward {
+    position: absolute;
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
+    background-color: transparent;
+    padding-top: 20rem;
+    z-index: 2;
+}
+
+/*ボックス*/
+.s_box {
+    position: relative;
+    margin-left: 75rem;
+    margin-top: 30.7rem;
+    width: 450px;
+    height: 250px;
+    background: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid; /* 線の太さと可視化 */
+    border-bottom: transparent; /* 下辺を透明に */
+    border-right: transparent;
+    border-color: #e5e5e5;
+    z-index: 1;
+  }
+
+.f_box {
+    position: relative;
+    margin-left: 5rem;
+    margin-top: 30.7rem;
+    width: 450px;
+    height: 250px;
+    background: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid; /* 線の太さと可視化 */
+    border-bottom: transparent; /* 下辺を透明に */
+    border-left: transparent;
+    border-color: #e5e5e5;
+    z-index: 1;
+  }
+
+.d_box {
+    position: relative;
+    margin-left: 75rem;
+    margin-top: 30.7rem;
+    width: 450px;
+    height: 250px;
+    background: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid; /* 線の太さと可視化 */
+    border-bottom: transparent; /* 下辺を透明に */
+    border-right: transparent;
+    border-color: #e5e5e5;
+    z-index: 1;
+  }
+
+/* space */
+.spaceward {
+    margin-left: 87rem;
+    margin-bottom: -3.6rem;
+    font-size: 5.0rem;
+    color: #e5e5e5;
+    line-height: 0rem
+}
+
+.s_mainward {
+    margin-left: 5rem;
+    font-size: 2.0rem;
+    color: #00488e;
+    line-height: 2.5em
+}
+
+.s_ward {
+    margin-left: 5rem;
+    color: #8f8d93;
+    line-height: 2.3em
+}
+
+/* food */
+.foodward {
+    margin-left: 5rem;
+    margin-bottom: -3.6rem;
+    font-size: 5.0rem;
+    color: #e5e5e5;
+    line-height: 0rem
+}
+
+.f_mainward {
+    margin-left: 5rem;
+    font-size: 2.0rem;
+    color: #00488e;
+    line-height: 2.5em
+}
+
+.f_ward {
+    margin-left: 10%;
+    color: #8f8d93;
+    line-height: 2.3em
+}
+
+/* drink */
+.drinkward {
+    margin-left: 85rem;
+    margin-bottom: -3.6rem;
+    font-size: 5.0rem;
+    color: #e5e5e5;
+    line-height: 0rem
+}
+
+.d_mainward {
+    margin-left: 5rem;
+    font-size: 2.0rem;
+    color: #00488e;
+    line-height: 2.5em
+}
+
+.d_ward {
+    margin-left: 10%;
+    color: #8f8d93;
+    line-height: 2.3em
+}
+
+/* 画像　*/
+.img-s {
+    position: absolute;
+    width: 60%;
+    height: 500px;
+    object-fit: cover;
+    margin-left:5rem;
+    z-index: -1;
+}
+.resizeimage img { width: 100%; }
+
+.img-f {
+    position: absolute;
+    width: 60%;
+    height: 500px;
+    object-fit: cover;
+    margin-left:44rem;
+    margin-right:5rem;
+    z-index: -1;
+}
+.resizeimage img { width: 100%; }
+
+.img-d {
+    position: absolute;
+    width: 60%;
+    height: 500px;
+    object-fit: cover;
+    margin-left:5rem;
+    z-index: -1;
+}
+.resizeimage img { width: 100%; }
+/*ここまで小橋*/

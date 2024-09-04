@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.header {
+    background-color: #f0f0f0; /* 白に近いグレー */
+    padding: 15px 0;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease; /* スクロール時の色変更をスムーズにする */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* ロゴとナビゲーションを左右に配置 */
+    align-items: center;
+}
+
+.logo a img {
+    width: 150px;
+    height: 50px;
+    display: block;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* ナビゲーションメニューを右寄せ */
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item a {
+    color: #007BFF; /* 綺麗な青色 */
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-item a:hover {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+.content {
+    margin-top: 80px; /* 固定ヘッダーの下にコンテンツが隠れないようにする */
+    padding: 20px;
+}
